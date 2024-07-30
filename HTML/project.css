@@ -1,0 +1,478 @@
+@font-face 
+{
+    font-family: 'Segoe UI';
+    src: url('fonts/segoe-ui.woff2') format('woff2'),
+         url('fonts/segoe-ui.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6 
+{
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    min-height: 100vh;
+}
+.banner 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 32px;
+    overflow: hidden;
+}
+.image-box 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(70, 68, 68);
+}
+.image-box__background 
+{
+    background-image: url('projectpic/Div.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+    z-index: 1;
+    
+}
+.both-container 
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    position: relative;
+    padding: 0 5%;
+}
+.logo 
+{
+    display: flex;
+    margin-left: 100px;
+    width: 80px;
+}
+.menu-container 
+{
+    display: flex;
+    margin-right: 100px;
+    color: orange;
+    gap: 60px;
+}
+li 
+{
+    list-style: none;
+    font-size: 20px;
+}
+li:hover 
+{
+    color: white;
+    cursor: pointer;
+}
+.bodyguard 
+{
+    width: 570px;
+    height: 830px;
+    margin-right: 100px;
+    margin-top: -20px;
+    z-index: 3; 
+    position: relative;
+}
+.banner-container 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    z-index: 3; 
+    position: relative;
+}
+.banner-left 
+{
+    width: 100%;
+    height: 100%;
+    font-size: xx-large;
+    margin-top: 120px;
+    margin-left: 300px;
+    line-height: 1.25;
+
+
+}
+.btn-1
+{
+    padding: 15px 25px;
+    border: none;
+    color: black;
+    background-color: rgb(255, 183, 0);
+    cursor: pointer;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.title4
+{
+    margin-left: -60px;
+
+}
+.title1
+{
+    font-size: 70px;
+    font-style: italic ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.title2
+{
+    font-size: 70px;
+    margin-left: 27px;
+    font-style: italic ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title3
+{
+    font-size: 40px;
+    margin-left: -100px;
+    color: rgb(251, 205, 92);
+    font-style: normal ;
+}
+.linedlogo-container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    width: 1800px; 
+    padding: 20px; 
+    height: 206.27px; 
+    background-color: rgb(230, 229, 229);
+    margin-left: 50px;
+}
+.linedlogo1
+{
+    width: 130.19px;
+    height: 143.32px;
+
+}
+.linedlogo2
+{
+    width: 130.19px;
+    height: 110.69px;
+}
+.service-title
+{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.small-logo1
+{
+    width: 200px;
+    height: 20px;
+    margin-left: 870px;
+    margin-top: 10px;
+}
+.small-text
+{
+    margin-top: -30px;
+}
+.small-text1
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.small-text2
+{
+    text-align: center;
+}
+.service-slot1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+.card1
+{
+    width: 356px;
+    height: 280px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 50px;
+}
+.cardlogo1
+{
+    width: 83.5px;
+    height: 83.5px;
+    margin-top: 20px;
+}
+.description1
+{
+    margin:10px;
+}
+.small-logo2
+{
+    margin-top: 10px;
+}
+.banner-container2 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    gap: 45px;
+}
+.banner-left2 
+{
+    width: 570px;
+    height: 611px;
+    margin-left: 350px;
+    margin-top: 100px;
+   
+}
+.banner-right2 
+{
+    margin:10px;
+    text-align: left;
+    margin-right: 200px;
+}
+.btn-2
+{
+    width: 76.69px;
+    height: 38px;
+    border: none;
+    color: black;
+    background-color: rgb(13, 202, 240);
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.description2
+{
+    margin-top: 20px;
+    line-height: 1.75;   
+}
+.service-title2
+{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.25;
+}
+.orange-text 
+{
+    color: orange;
+}
+.black-text 
+{
+    color: black;
+}
+.telephone
+{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+.cons1
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: -90px;
+    margin-left: 100px;
+    color: black;
+}
+.number
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 60px;
+    color: black;
+}
+.footer-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    padding: 2rem 5%;
+    color: rgb(0, 0, 0);
+}
+.form
+{
+    margin-left: -200px;
+    margin-top: -20px;
+}
+.foot-logo
+{
+    margin-top: 50px;
+    margin-left: 125px;
+    width: 50px;
+    height: 50px;
+}
+.sm
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 180px;
+    color: orange;
+}
+.cons2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 130px;
+    color: white;
+}
+.cons2a
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 133px;
+    color: white;
+}
+.cons2b
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 120px;
+    color: white;
+}
+.cons2c
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-left: 10px;
+    color: white;
+}
+.noti 
+{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: orange;
+}
+.input-box
+{
+    background-color: rgb(128, 128, 128);
+    padding: 15px;
+    width: 40%;
+    margin-left: 165px;
+}
+.input-box::placeholder 
+{
+    color: rgb(198, 198, 198); 
+}
+.lm1
+{
+    margin-top: -70px;
+    margin-left: -300px;
+}
+.lm1a
+{
+    font-weight: 50;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: white;
+}
+.small-logo3
+{
+    margin-left: 110px;
+}
+.fp1
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 95px;
+}
+.lm2
+{
+    margin-top: -90px;
+    margin-left: -300px;
+}
+.lm2a
+{
+    font-weight: 50;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 190px;
+    color: white;
+}
+.small-logo4
+{
+    width: 200px;
+    margin-left: 170px;
+}
+.oa-container
+{
+    margin-left: 120px;
+}
+.orange-text2 
+{
+    color: orange;
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.black-text2 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+.orange-text3 
+{
+    color: orange;
+    font-size: 20px;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.black-text3 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}

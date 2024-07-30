@@ -1,0 +1,25 @@
+.title1
+{
+    color: green;
+    font-size: 44px; 
+}
+.title2
+{
+    color: red;
+    font-size: 44px; 
+}
+#description
+{
+    color: rgb(47, 0, 128);
+    font-size: 44px; 
+    font-style: italic;
+
+} 
+.box
+{
+    width: 300px;
+    border: 5px solid brown;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
